@@ -211,6 +211,9 @@ section {
   content: "Web Developer";
   color: var(--main-color);
   animation: words 20s infinite;
+  background: linear-gradient(270deg, #df8908 10%, #ff1d15 100%);
+  background-clip: text;
+  color: transparent;
 }
 
 .text-animation span::after {
@@ -537,7 +540,7 @@ section {
     width: 56vw;
   }
   .about {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
   .about h2 {
@@ -550,5 +553,30 @@ section {
 
   .contact form {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 895px) {
+  .home {
+    margin: 4rem 4rem;
+  }
+  .home-content h3 {
+    font-size: 2rem;
+  }
+  .home-content h1 {
+    font-size: 4rem;
+  }
+
+  .about {
+    gap: 8rem;
+  }
+
+  .contact h2 {
+    font-size: 4rem;
+  }
+
+  section {
+    min-height: 100vh;
+    padding: 10rem 2rem;
   }
 }
