@@ -28,7 +28,6 @@ p {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.8;
-  color: rgb(210, 207, 207);
 }
 
 .header {
@@ -366,6 +365,7 @@ section {
 
 .service-box:hover {
   background: var(--second-bg-color);
+  color: white;
   color: var(--main-color);
   border: 5px solid var(--main-color);
   transform: scale(1.03);
