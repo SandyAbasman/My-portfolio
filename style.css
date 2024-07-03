@@ -607,4 +607,12 @@ section {
   .footer ul li {
     margin-left: 10px;
   }
+
+  .service-info {
+    padding: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
