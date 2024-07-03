@@ -557,9 +557,9 @@ section {
 }
 
 @media (max-width: 895px) {
-  .home {
+  /* .home {
     margin: 4rem 4rem;
-  }
+  } */
   .home-content h3 {
     font-size: 2rem;
   }
@@ -577,6 +577,6 @@ section {
 
   section {
     min-height: 100vh;
-    padding: 10rem 5rem;
+    padding: 10rem 3%;
   }
 }
