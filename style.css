@@ -15,13 +15,20 @@
   --main-color: #ea580c;
 }
 html {
-  font-size: 60%;
+  font-size: 70%;
   overflow-x: hidden;
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: rgb(210, 207, 207);
 }
 
 .header {
@@ -124,9 +131,11 @@ section {
 }
 
 .home-content p {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 300;
   line-height: 1.8;
+  color: rgb(210, 207, 207);
+  text-align: right;
 }
 
 .home-img img {
@@ -299,7 +308,10 @@ section {
   text-align: left;
 }
 .about-content p {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: rgb(210, 207, 207);
 }
 
 .about-content .btn {
@@ -375,9 +387,10 @@ section {
 }
 
 .service-info p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1.7;
+  color: rgb(8, 8, 8);
 }
 
 .service-info i {
@@ -498,6 +511,9 @@ section {
 }
 
 @media (max-width: 1285px) {
+  .home-content p {
+    text-align: center;
+  }
   #menu-icon {
     display: block;
   }
@@ -578,5 +594,17 @@ section {
   section {
     min-height: 100vh;
     padding: 10rem 3%;
+  }
+
+  .footer ul {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer ul li {
+    margin-left: 10px;
   }
 }
