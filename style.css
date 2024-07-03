@@ -614,4 +614,8 @@ section {
   p {
     font-size: 1rem;
   }
+
+  .header {
+    padding: 2rem 2%;
+  }
 }
