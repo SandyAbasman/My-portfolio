@@ -319,7 +319,7 @@ li {
   color: rgb(210, 207, 207);
 }
 .about-content li {
-  list-style: circle;
+  list-style: none;
 }
 .about-content .btn {
   margin: 3rem 0;
